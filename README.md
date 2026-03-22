@@ -1,22 +1,26 @@
-Iată varianta finală și curată pentru README, gata de pus pe GitHub pentru proiectul tău de C#. Am inclus detaliile despre structura pe care o văd în interfață și în fișierele tale:
+# Sistem gestiune stocuri (C#)
 
-Sistem Gestiune Stocuri (C#)
-Această aplicație desktop este realizată în C# și oferă o soluție completă pentru monitorizarea fluxurilor de marfă într-un mediu de retail. Proiectul utilizează Windows Forms pentru o interfață grafică intuitivă, permițând organizarea datelor pe mai multe niveluri.
+O aplicatie desktop performanta construita in **C#** cu **Windows Forms** pentru gestionarea fluxurilor de produse, a nivelurilor de stoc si generarea de rapoarte automate.
 
-Funcționalități Principale
-Structură Ierarhică: Organizarea datelor pe Magazin (Nume, Locație), Raion și Produs.
+## Functionalitati Principale
 
-Management Produse: Interfață pentru adăugarea detaliilor specifice: Nume Produs, Preț și Cantitate.
+* **Monitorizare Stocuri:** Actualizari in timp real pentru magazine, raioane si produse.
+* **Calcul Automat:** Evaluarea automata a stocurilor si generarea graficului de cost total pe raioane.
+* **Control Flux:** Sectiune dedicata pentru scoaterea produselor din gestiune prin cos virtual.
+* **Interfata Utilizator:** Dashboard intuitiv cu butoane de actiune rapida si meniuri de tiparire.
 
-Analiză Vizuală: Generarea automată a unui grafic pentru "Cost total pe raioane", util pentru decizii rapide de business.
+---
 
-Control Inventar: Secțiune dedicată pentru "Coș Scoatere din Gestiune", care permite eliminarea controlată a produselor.
+## Detalii Tehnice
 
-Raportare: Meniu superior pentru funcții de "File" și "Tipărire".
+* **Limbaj:** C# [.NET Framework]
+* **Arhitectura:** OOP (clase dedicate pentru Magazin, Raion si Produs)
+* **IDE:** Microsoft Visual Studio
 
-Detalii Tehnice și Arhitectură
-Tehnologii: .NET Framework și C#.
+---
 
-Componente: Proiectul este modularizat în clase (Magazin.cs, Produs.cs) și formulare dedicate (FormMagazin.cs, FormRaion.cs, FormProdus.cs).
+## Instructiuni de Rulare
 
-IDE: Dezvoltat folosind Microsoft Visual Studio.
+1. Deschide fisierul solutie `.sln` in **Visual Studio**.
+2. Ruleaza **Build -> Rebuild Solution** pentru a incarca toate componentele.
+3. Apasa tasta **F5** pentru a lansa aplicatia.
